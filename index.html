@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&family=Rubik&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            background: #050061;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-block-end: 0.2em;
+        }
+
+        .section {
+            padding-top: 5rem;
+            padding-bottom: 2rem;
+        }
+
+        h1 span {
+            color: #ee5500;
+        }
+
+        .first {
+            background: #ffffff;
+        }
+
+        .first h2 {
+            font-size: 20px;
+        }
+
+        .projects h2 {
+            color: #e5e5e5;
+            margin: 1.5rem 0;
+            font-size: 20px;
+        }
+
+        .projects .card {
+            box-shadow: unset;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .projects .card:hover {
+            box-shadow: #ffffff 0 0 15px;
+        }
+
+        .card-image {
+            background: #22199e;
+        }
+
+        .card-image > img {
+            max-width: 5em;
+            height: auto;
+            margin: auto;
+        }
+
+        .card-content {
+            text-align: left;
+            color: #4e4e4e;
+        }
+
+        .card-image {
+            padding: 20px;
+        }
+
+        .projects {
+            background: #050061;
+        }
+
+        .projects .col {
+            float: unset;
+            margin: auto;
+        }
+
+        .main-image {
+            max-width: 500px;
+            width: 80%;
+        }
+
+        .projects .card-action span {
+            color: #050061;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .wave {
+            background: #ffffff;
+            height: 50px;
+            position: relative;
+        }
+
+        .wave::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 10px;
+            background-size: 20px 40px;
+            background-image: radial-gradient(circle at 10px -15px, transparent 20px, #050061 21px);
+        }
+
+        .wave::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 15px;
+            background-size: 40px 40px;
+            background-image: radial-gradient(circle at 10px 26px, #050061 20px, transparent 21px);
+        }
+    </style>
+</head>
+<body>
+<div id="all-pages" class="center-align">
+    <div class="section first">
+        <img src="static/logo.svg" alt="Логотип" class="main-image">
+        <h1>МІСТО <span>ЗДОРОВОЇ</span> ЛЮДИНИ</h1>
+        <h2>принаймні, таким ми його хочемо зробити</h2>
+    </div>
+    <div class="wave"></div>
+    <div class="section projects">
+        <h2>ПОКИ ЩО ВИЙШЛО НЕБАГАТО:</h2>
+        <div class="row center-align">
+            <div class="col s10 m6 l4 xl3">
+                <a href="https://urbanrail.kyiv.group">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="static/rail.svg" alt="Розклад міської електрички">
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Швидкий та зручний застосунок, що дозволяє провести час цікавіше за очікування поїзду
+                                на платформі
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <span>Розклад міської електрички</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

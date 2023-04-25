@@ -1,0 +1,6 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="60 26 230 255.96">  <!--Blue figure-->
+    <path style="fill:#0ad" d="m 175,26 c 27,0 115,71 115,143 a 115,113,0,0,1,-230,0 c 0,-72 88,-143 115,-143 z"></path>
+    <g style="fill:none;stroke:white;stroke-width:24px;stroke-linecap:round">  <!--K-->
+        <path d="M 142,208 v-96 	M 206,113 l-48,44 	M 208,209 l-48,-46"></path>
+    </g>
+</svg>
